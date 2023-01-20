@@ -63,7 +63,6 @@ void Object3d::StaticInitialize(ID3D12Device* device, int window_width, int wind
 
 	// モデル生成
 	CreateModel();
-
 }
 
 void Object3d::PreDraw(ID3D12GraphicsCommandList* cmdList)
